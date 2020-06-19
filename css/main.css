@@ -30,4 +30,6 @@ section { display: flex; }
 
 .text-light { font-size: 30px; color: #A0A0A0; }
 .text-secondary { font-size: 30px; color: #faa541; }
-.text-primary { font-size: 16px; color: #364147; } 
+.text-primary { font-size: 16px; color: #364147; }
+
+.header-nav {border-bottom :1px; border-color: #a0a0a0;}
