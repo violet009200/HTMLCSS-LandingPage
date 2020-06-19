@@ -9,13 +9,25 @@ section { display: flex; }
 .center { justify-content: center; }
 .space-between { justify-content: space-between; }
 
-.btn{
-  cursor: pointer;
-  border: 0px;
-  padding:6px, 6px, 12px, 12px;
-  border-radius: 3px;
-  line-height: 1.4;
+.btn {
+    cursor: pointer;
+    border: 0;
+    padding: 6px 12px;
+    line-height: 1.4;
+    border-radius: 3px;
 }
 
 .btn-default { color: #ffffff; background-color: #faa541; }
 .btn-primary { color: #ffffff; background-color: #364147; }
+
+.form-control {
+    display: block;
+    padding: 6px 12px;
+    line-height: 1.4;
+    color: #8598a2;
+    border: 1px solid #a0a0a0;
+}
+
+.text-light { font-size: 30px; color: #A0A0A0; }
+.text-secondary { font-size: 30px; color: #faa541; }
+.text-primary { font-size: 16px; color: #364147; } 
